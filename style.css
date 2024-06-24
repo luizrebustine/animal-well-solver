@@ -1,0 +1,44 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+    -moz-appearance: textfield;
+  }
+@font-face {
+    font-family: "Pixelated"
+    src: url(fontes/pixelated/pixelated.ttf);
+}
+body{
+    background-image: url(imagens/gif_cranes.gif);
+    background-size: cover;
+    padding:0;
+    margin:0;
+}
+h1{
+    color: white;
+    font-family: "Pixelated", sans-serif;
+    text-align: center;
+    font-size: 72px;
+}
+#imagens > img{
+    width: 50px;
+    padding: 2px;
+}
+#imagens{
+    width: 800px;
+    margin: auto;
+}
+#numerosinput{
+    padding: 8px;
+    width: 300px;
+    font-size: 24px;
+    font-family: "Pixelated", sans-serif;
+}
+#botaosubmit{
+    padding: 8px;
+    width: 80px;
+    font-size: 24px;
+    font-family: "Pixelated", sans-serif;
+}
